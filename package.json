@@ -1,0 +1,39 @@
+{
+  "name": "potfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "start \"webpack\" call \"node_modules/.bin/webpack.cmd\" --config webpack.config.js -w",
+    "build": "call \"node_modules/.bin/webpack.cmd\" --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejewiczow/potfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "maciej",
+    "adamus"
+  ],
+  "author": "Maciej Adamus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/maciejewiczow/potfolio/issues"
+  },
+  "homepage": "https://github.com/maciejewiczow/potfolio#readme",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.21",
+    "@types/three": "^0.92.7",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "three": "^0.93.0"
+  }
+}
